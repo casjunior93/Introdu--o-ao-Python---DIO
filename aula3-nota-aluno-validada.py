@@ -12,10 +12,9 @@ if d < 0 or d > 10:
     d = int(input("Nota errada. Digite a Nota 4 novamente: "))
 
 media = (a+b+c+d)/4
-print("Média: " + media)
+print("Média: " + str(media))
 
 # if a >= 0 and a <= 10 and b >= 0 and b<= 10 and c >= 0 and c <= 10 and d >= 0 and d <= 10:
 #     print("Média: {:.2f}".format(media))
 # else:
 #     print("Alguma nota está errada")
-

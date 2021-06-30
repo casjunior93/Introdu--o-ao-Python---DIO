@@ -12,9 +12,11 @@ class Calculadora:
     def div(self, a, b):
         return a / b
 
-calculadora = Calculadora()
+if __name__ == "__main__":
 
-print(calculadora.soma(10,2))
-print(calculadora.sub(10,2))
-print(calculadora.mult(10,2))
-print(calculadora.div(10,2))
+    calculadora = Calculadora()
+
+    print(calculadora.soma(10,2))
+    print(calculadora.sub(10,2))
+    print(calculadora.mult(10,2))
+    print(calculadora.div(10,2))
